@@ -34,9 +34,9 @@ SHOW TABLES;
 /* 
 ## For Date: YYYY-MM-DD
 ## For sex: M or F
-## For Path: scientific or humanitarian
+## For Path: scientific or humanities
 */
-INSERT INTO Student VALUES (1,"Ali Ahmed",2001-02-15,"M",2019-01-01,"Ali.Mohammed_Ahmed@email.com",4,"",95.7),(2,"Abdullah Khaled",2002-05-17,"M",2018-01-01,"Abdullah.Khaled@email.com");
+INSERT INTO Student VALUES (1,"Ali Ahmed",2001-02-15,"M",2019-01-01,"Ali.Mohammed_Ahmed@email.com",4,"scientific",95.7),(2,"Abdullah Khaled",2002-05-17,"M",2018-01-01,"Abdullah.Khaled@email.com",5,"humanities",94.3);
 -- insert teachers values atleast 10 teachers
 INSERT INTO Teacher VALUES (1,"Khaled Ali", 1890-09-10,"M","Khaled.Ali@email.com",101),(2,"Abdulaziz Fahad", 1893-04-22,"M","Abdulaziz.Fahad@email.com",110);
 -- insert Subjects values atleast 10 Subjects
